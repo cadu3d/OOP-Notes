@@ -1,0 +1,15 @@
+D:\GIT\OOP-Notes\bin\Debug\net6.0\OOP Notes.exe
+D:\GIT\OOP-Notes\bin\Debug\net6.0\OOP Notes.deps.json
+D:\GIT\OOP-Notes\bin\Debug\net6.0\OOP Notes.runtimeconfig.json
+D:\GIT\OOP-Notes\bin\Debug\net6.0\OOP Notes.dll
+D:\GIT\OOP-Notes\bin\Debug\net6.0\OOP Notes.pdb
+D:\GIT\OOP-Notes\obj\Debug\net6.0\OOP Notes.csproj.AssemblyReference.cache
+D:\GIT\OOP-Notes\obj\Debug\net6.0\OOP Notes.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\OOP-Notes\obj\Debug\net6.0\OOP Notes.AssemblyInfoInputs.cache
+D:\GIT\OOP-Notes\obj\Debug\net6.0\OOP Notes.AssemblyInfo.cs
+D:\GIT\OOP-Notes\obj\Debug\net6.0\OOP Notes.csproj.CoreCompileInputs.cache
+D:\GIT\OOP-Notes\obj\Debug\net6.0\OOP Notes.dll
+D:\GIT\OOP-Notes\obj\Debug\net6.0\refint\OOP Notes.dll
+D:\GIT\OOP-Notes\obj\Debug\net6.0\OOP Notes.pdb
+D:\GIT\OOP-Notes\obj\Debug\net6.0\OOP Notes.genruntimeconfig.cache
+D:\GIT\OOP-Notes\obj\Debug\net6.0\ref\OOP Notes.dll

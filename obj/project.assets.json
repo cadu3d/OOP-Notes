@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GIT\\OOP Notes\\OOP Notes.csproj",
+      "projectUniqueName": "D:\\GIT\\OOP-Notes\\OOP Notes.csproj",
       "projectName": "OOP Notes",
-      "projectPath": "D:\\GIT\\OOP Notes\\OOP Notes.csproj",
+      "projectPath": "D:\\GIT\\OOP-Notes\\OOP Notes.csproj",
       "packagesPath": "C:\\Users\\cadu3\\.nuget\\packages\\",
-      "outputPath": "D:\\GIT\\OOP Notes\\obj\\",
+      "outputPath": "D:\\GIT\\OOP-Notes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cadu3\\AppData\\Roaming\\NuGet\\NuGet.Config",
