@@ -1,0 +1,22 @@
+D:\GIT\Builds\Debug\net6.0-windows10.0.22621.0\OOP_Notes.exe
+D:\GIT\Builds\Debug\net6.0-windows10.0.22621.0\OOP_Notes.deps.json
+D:\GIT\Builds\Debug\net6.0-windows10.0.22621.0\OOP_Notes.runtimeconfig.json
+D:\GIT\Builds\Debug\net6.0-windows10.0.22621.0\OOP_Notes.dll
+D:\GIT\Builds\Debug\net6.0-windows10.0.22621.0\OOP_Notes.pdb
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP Notes.csproj.AssemblyReference.cache
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP_Notes.Properties.Resources.resources
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP Notes.csproj.GenerateResource.cache
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP Notes.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP Notes.AssemblyInfoInputs.cache
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP Notes.AssemblyInfo.cs
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP Notes.csproj.CoreCompileInputs.cache
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP Notes.csproj.CopyComplete
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP_Notes.dll
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\refint\OOP_Notes.dll
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP_Notes.pdb
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP Notes.genruntimeconfig.cache
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\ref\OOP_Notes.dll
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP_Notes.ATM_App.resources
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP_Notes.LoginGUI.resources
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP_Notes.StartGUI.resources
+D:\GIT\OOP-Notes\obj\Debug\net6.0-windows10.0.22621.0\OOP_Notes.CreateBankGUI.resources

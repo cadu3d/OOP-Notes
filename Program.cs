@@ -1,22 +1,39 @@
 ﻿namespace OOP_Notes
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
+            /// <summary>
+            /// The main entry point for the application.
+            /// </summary>
+            Program test = new Program();
+            test.CreateBankMain();
 
-            int myNum;
-            myNum = 15;
-            Console.WriteLine(myNum);
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new StartGUI());
 
-            // Type your username and press enter
-            Console.WriteLine("Enter username:");
 
-            // Create a string variable and get user input from the keyboard and store it in the variable
-            string userName = Console.ReadLine();
+           // Bank.bankCreated += test.Print;
 
-            // Print the value of the variable (userName), which will display the input value
-            Console.WriteLine("Username is: " + userName);
+
         }
+
+        public void CreateBankMain()
+        {
+            Bank banco1 = new("Novo1", "rua tal", 10000);
+            Bank banco2 = new("Novo2", "rua tal2", 10002);
+            Bank banco3 = new("Novo3", "rua tal2", 10002);
+            Bank banco4 = new("Novo4", "rua tal2", 10002);
+            Bank banco5 = new("Novo5", "rua tal2", 10002);
+        }
+
+        public void Print(Bank T)
+        {
+            foreach (Bank banco in Bank.BankList) { Console.WriteLine(banco.BankName); }
+        }
+
     }
+
 }

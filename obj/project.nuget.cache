@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hySd9BpFXOSUN5f8P/lSj0JMCRMBCzhsM7+a3H1Ff21JyIuM2HYXDDzHJsBZa9QFo5HScLPzMVDHPwdBqFdifA==",
+  "dgSpecHash": "NgFfARzaKQ6Z3zpFvnh/T/IOsOqp2WB5z0RI5nnm0T3yIIHkl7bnG1BKFdiCcXQZiFuf9ZOoMpkbw5PEUn14VQ==",
   "success": true,
   "projectFilePath": "D:\\GIT\\OOP-Notes\\OOP Notes.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\cadu3\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.28\\microsoft.windows.sdk.net.ref.10.0.22621.28.nupkg.sha512"
+  ],
   "logs": []
 }
