@@ -13,6 +13,8 @@ namespace OOP_Notes
 {
     public partial class CreateBankGUI : Form
     {
+        public float Money_Reserve = 0;
+
         public CreateBankGUI()
         {
             InitializeComponent();
@@ -23,7 +25,6 @@ namespace OOP_Notes
             if (BankCreatorName_textBox.Text == "Name")
                 BankCreatorName_textBox.Text = "";
             BankCreatorName_textBox.ForeColor = Color.Black;
-            Console.WriteLine(e.Button);
 
         }
         private void BankCreator_richTextBox_MouseClick(object sender, MouseEventArgs e)
@@ -45,16 +46,17 @@ namespace OOP_Notes
             if (Reserve_textBox.Text == "Money Reserve")
                 Reserve_textBox.Text = "";
             Reserve_textBox.ForeColor = Color.Black;
-
-            Console.WriteLine(e.Button);
         }
 
         private void BankCreator_button_MouseClick(object sender, MouseEventArgs e)
         {
             string name = BankCreatorName_textBox.Text;
             string address = BankCreator_richTextBox.Text;
-            string reserve = Reserve_textBox.Text;
-            Bank banco = new(name, address, 10002);
+            //string reserve = Reserve_textBox.Text;
+            Bank banco = new(name, address, Money_Reserve);
+
+            MessageBox.Show("Bank Name: " + banco.BankName + "\n" + "Bank Adress: " + banco.Aderss + "\n" + "Bnak Rerserve: "+ Convert.ToString(Money_Reserve));
+            //Console.WriteLine(banco.BankName + "\n" + banco.Aderss + "\n" + Convert.ToString(Money_Reserve));
         }
 
         private void Reserve_textBox_TextChanged(object sender, EventArgs e)
@@ -62,7 +64,9 @@ namespace OOP_Notes
             if (!float.TryParse(Reserve_textBox.Text, out float result))
             {
                 Reserve_textBox.Text = ""; // Clear the invalid input if parsing is not possible
+
             }
+            Money_Reserve = result;
         }
     }
 }

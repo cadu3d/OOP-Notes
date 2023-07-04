@@ -34,6 +34,8 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             listBox2 = new ListBox();
             Bank_listBox = new ListBox();
+            Information_label = new Label();
+            itemInformation_label = new Label();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -70,7 +72,7 @@
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            tableLayoutPanel1.Anchor = AnchorStyles.Top;
             tableLayoutPanel1.AutoScroll = true;
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
@@ -104,12 +106,33 @@
             Bank_listBox.Name = "Bank_listBox";
             Bank_listBox.Size = new Size(216, 124);
             Bank_listBox.TabIndex = 3;
+            Bank_listBox.SelectedIndexChanged += Bank_listBox_SelectedIndexChanged;
+            // 
+            // Information_label
+            // 
+            Information_label.AutoSize = true;
+            Information_label.Font = new Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            Information_label.Location = new Point(166, 271);
+            Information_label.Name = "Information_label";
+            Information_label.Size = new Size(217, 47);
+            Information_label.TabIndex = 4;
+            Information_label.Text = "Information";
+            // 
+            // itemInformation_label
+            // 
+            itemInformation_label.AutoSize = true;
+            itemInformation_label.Location = new Point(88, 349);
+            itemInformation_label.Name = "itemInformation_label";
+            itemInformation_label.Size = new Size(0, 15);
+            itemInformation_label.TabIndex = 5;
             // 
             // StartGUI
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(522, 281);
+            ClientSize = new Size(522, 513);
+            Controls.Add(itemInformation_label);
+            Controls.Add(Information_label);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(BankSim_Label);
             Name = "StartGUI";
@@ -128,5 +151,7 @@
         private TableLayoutPanel tableLayoutPanel1;
         private ListBox Bank_listBox;
         private ListBox listBox2;
+        private Label Information_label;
+        private Label itemInformation_label;
     }
 }

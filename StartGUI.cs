@@ -25,14 +25,13 @@ namespace OOP_Notes
 
         private void CreateBank_ListBox_AddBank(Bank sender)
         {
-            //Console.WriteLine("chamou");
+            Console.WriteLine("chamou");
             //Bank_listBox.Items.Add(sender.BankName);
 
             Bank_listBox.Items.Clear();
             foreach (Bank bank in Bank.BankList) { Bank_listBox.Items.Add(bank.BankName); }
 
             //secondary subscriptions triggered the object events  
-
 
         }
 
@@ -45,7 +44,37 @@ namespace OOP_Notes
 
         private void StartGUI_Load(object sender, EventArgs e)
         {
+            Information_label.Hide();
+            itemInformation_label.Hide();
             foreach (Bank bank in Bank.BankList) { Bank_listBox.Items.Add(bank.BankName); }
+
+        }
+
+        private void Bank_listBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int newHeight = 800;
+            this.Height = newHeight;
+            itemInformation_label.Show();
+            Information_label.Show();
+
+            var queary = from bank in Bank.BankList
+                         where bank.BankName == Bank_listBox.Text
+                         select bank;
+
+            itemInformation_label.Text = "Bank Name: " + queary.FirstOrDefault().BankName + "\n" + "Bank Adress: " + queary.FirstOrDefault().Aderss + "\n" + "Bnak Rerserve: " + Convert.ToString(queary.FirstOrDefault().MoneyReserve);
+
+            //if (Bank_listBox.SelectedItem != null)
+            //{
+            //foreach (var item in Bank.BankList)
+            //{
+            //if (item.BankName == Bank_listBox.SelectedItem.ToString())
+            //{
+            //itemInformation_label.Text = "Bank Name: " + item.BankName + "\n" + "Bank Adress: " + item.Aderss + "\n" + "Bnak Rerserve: " + Convert.ToString(item.MoneyReserve);
+            //}
+            //}
+            //}
+
+
 
         }
     }
